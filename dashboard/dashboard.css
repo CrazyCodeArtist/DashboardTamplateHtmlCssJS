@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: blueviolet;
+}
+
+nav{
+  margin: 20px;
+    background-image: url(../waves-8236919.jpg);
+
+    border: 2px solid purple;
+    border-radius: 20px;
+
+}
+
+* button:hover{
+   
+
+}

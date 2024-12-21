@@ -1,0 +1,65 @@
+#btn-login , #btn-signup{
+border: none;
+padding: 10px;
+margin: 20px;
+width: 120px;
+border-radius: 4px;
+}
+
+body{
+    height: 80vh;
+    display: flex;
+    background-image: url(waves-8236919.jpg);
+}
+#loginForm{
+background: hsl(287, 87%, 49%);
+background-color:rgba(187, 16, 234, 0.5);
+border: 2px solid rgb(97, 15, 173);
+    width: 160px;
+    margin: auto;
+    height: 200px;   
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+
+}
+
+#btn-login{
+background: rgb(97, 15, 173);
+color: white;
+
+    
+}
+
+#btn-signup{
+    color: rgb(97, 15, 173);
+    background-color: white;
+    
+}
+
+
+
+
+#btn-login:hover{
+    background: rgb(41, 6, 73);
+    color: white;
+    width: 130px;
+    transition: width 0.2s, height 4s;
+
+    
+        
+    }
+    
+    #btn-signup:hover{
+        color: rgb(34, 5, 60);
+        width: 130px;
+        transition: width 0.2s, height 4s;
+
+      
+        background-color: white;
+       
+        
+    }

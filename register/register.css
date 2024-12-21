@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../waves-8236919.jpg);
+    padding: 17px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+
+    width: 350px;
+padding: 14px;
+
+    background: hsl(287, 87%, 49%);
+    background-color:rgba(187, 16, 234, 0.5);
+    border: 2px solid rgb(97, 15, 173);
+    border-radius: 20px;
+}
+
+form input{
+    margin-bottom: 10px;
+    margin-top: 1px;
+    padding: 5px;
+    border-radius: 1px;
+    border-style: none;
+
+
+}
+form label{
+    margin-top:10px ;
+    margin-bottom: 2px;
+}
+
+form button{
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    margin: 20px;
+}
+
